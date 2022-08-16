@@ -51,5 +51,6 @@ let searchButton=document.querySelector("#search-btn");
 searchButton.addEventListener('click',event=>{
     event.preventDefault();
     let searchKey = document.querySelector('#search-input').value;
+    console.log(searchKey);
     getCourses(searchKey);
 });
