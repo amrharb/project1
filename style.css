@@ -138,11 +138,17 @@ section{
   font-size:20px;
 }
 
+.container-fluid > div > p{
+  width:67%;
+  margin:0;
+}
+
 div > button{
   background-color: white;
   cursor: pointer;
   border-color:gray;
-  width:120px;
+  padding:6px;
+  width:auto;
   height:40px;
 }
 
@@ -157,6 +163,16 @@ div > button{
 .courseslist li:first-child{
   color:black;
 }
+
+.courses{
+  width:90%;
+  margin:0 5%;
+}
+
+.slider{
+  border-radius: 50%;
+}
+
 @media screen and (max-width:800px) {
   .desktop{
     display:none;
